@@ -1,0 +1,251 @@
+body{  
+    font-family: poppins;
+    background-color: #232323;
+    color: white;}   
+                                    
+                                    /* <!-- ------------------------------- -->
+                                    <!-- ------Section COMPETENCES------ -->
+                                    <!-- ------------------------------- --> */
+
+#competences_section{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 115px;
+    padding-bottom: 109px;}
+
+.competences_div{
+    display: flex;}
+
+.langages_section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;}
+
+.langages_section div{
+    border-radius: 8px;
+    color: white;
+    padding: 18px;
+    padding-top: -6px ;
+    padding-left: 8px;
+    margin-top: 20px;
+    margin-right: 20px;}
+
+.langages_div{
+    background-color: #2C2C2C;
+    padding-left: 10px;
+    height: 25px;
+    display: flex;
+    align-items: center;}
+    
+
+.pourcentage{
+    font-weight: 500;
+    text-align: center;
+    color: #2C2C2C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    height: 18px;
+    width: 45px;
+    background-color: #F87F28;
+    border-radius: 30px;}
+
+.angular{
+    width: 250px ;}   
+.react{
+    width: 350px ;}
+.node{
+    width: 170px ;}
+.management{
+    width: 300px ;}
+.analytics{
+    width: 230px ;}
+.brainstorming{
+    width: 300px ;}
+.execution{
+    width: 400px ;}
+
+.texte_div{
+    padding-left: 50px;
+    padding-top: 20px;}
+
+.titre_competences{
+    line-height: 25px;
+    font-size: 36px;}
+
+.trait{
+    width: 75px;
+    height: 4px;
+    background-color: #F87F28;
+    margin-bottom: 50px;}
+
+
+
+
+                                    /* <!-- ------------------------------- -->
+                                    <!-- ------Section TEMOIGNAGES------ -->
+                                    <!-- ------------------------------- --> */
+
+#temoignages_section{
+    background-image: url(images/temoignages_fond.png);
+    background-size: cover;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 115px;
+    padding-bottom: 115px;}
+
+.titre_temoignages{
+    font-size: 36px;
+    display: flex;
+    justify-content: center;}
+
+.trait1_temoignages{
+    margin-bottom: 80px;}
+
+.image_text_temoignages{
+    display: flex;
+    padding-left: 150px;}
+
+.image_temoignages{
+    background-image: url(images/saulgoodman.png);
+    height: 120px;
+    width: 120px;
+    margin-right: 25px;}
+
+.paragraphe_temoignages{
+    font-style: italic;
+    letter-spacing: 1px;}
+
+.display_trait1_temoignages{
+    display: flex;
+    justify-content: center;}
+
+.trait2_temoignages{
+    width: 50px;}
+
+.saulgoodman{
+    font-weight: bold;
+    line-height: 3px;
+    margin-top: -20px;}
+
+
+                                    /* <!-- ------------------------------- -->
+                                    <!-- ------Section ACTUALITES------ -->
+                                    <!-- ------------------------------- --> */
+
+#acutalites_section{
+    background-image: url(images/actualites_fond.png);
+    background-size: 1550px 650px;
+    display: flex;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    padding-left: 200px;
+    padding-right: 200px;}
+
+.partie_gauche_actualites{
+    padding-left: 100px;
+    margin-right: 150px;}
+
+.titre_actualites{
+    line-height: 25px;
+    font-size: 36px;}
+
+.dates_actualites{
+    letter-spacing: 1.5px;
+    color: #F87F28;
+    font-weight: 500;
+    font-size: 14px;}
+
+.sous-titres_actualites{
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 18px;}
+
+.paragraphe_actualites{
+    letter-spacing: 1px;}
+                   
+                                    /* <!-- ------------------------------- -->
+                                    <!-- ------Section CONTACT ------ -->
+                                    <!-- ------------------------------- --> */
+    
+#contact_section{
+    background-image: url(images/contact_fond.png);
+    background-size: cover;
+    display: flex;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 300px;
+    padding-right: 300px;}
+
+.partie_gauche_contact{
+    padding-top: 70px;
+    margin-right: 120px;}
+
+.titre_contact{
+    margin-bottom: 25px;    
+    color: rgb(182, 178, 178);
+    font-size: 28px;}
+
+.liste{
+    display: flex;}
+
+.titre_paragraphe_contact{
+    line-height: 3px;
+    color: #F87F28;
+    font-size: 13px;}
+
+.paragraphe_contact{
+    font-size: 22px;
+    margin-top:-5px;}
+
+.logo_contact{
+    height: 42px;
+    width: 42px;
+    margin-right: 25px;}
+
+.titre-partiedroite-contact{
+    font-weight: 400;
+    color: rgb(182, 178, 178);}
+
+.nom-email{
+    display: flex;
+    justify-content: space-between}
+
+.fieldset-nom, .fieldset-email{
+    height: 50px;
+    width: 270px;
+    border-radius: 5px;}
+
+.fieldset-nom{
+    margin-right: 40px;}
+
+.fieldset-message{
+    border-radius: 5px;
+    height: 150px;}
+
+fieldset{
+    color: rgb(119, 117, 117);
+    border-color:rgb(119, 117, 117);}
+
+.champ-texte-contact{
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
+    height: 100%;
+    width: 100%;}
+
+.champ-texte-contact:focus{
+    outline: none;}
+
+.btn-contact{
+    background-color: #BB2323;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    margin-top: 20px;}
+
+.btn-contact:hover{
+    cursor: pointer;}
